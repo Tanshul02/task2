@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-body {
+.body {
     font-family: Arial, sans-serif;
     background-image: url('https://source.unsplash.com/featured/?coding,books');
     background-size: cover;
@@ -23,22 +23,22 @@ body {
     text-align: center;
 }
 
-#sectionQuiz button {
+.sectionQuiz button {
     margin: 5px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
 }
 
-#sectionQuizContainer, #sectionResult {
+sectionQuizContainer, .sectionResult {
     display: none;
 }
 
-#sectionAnswers {
+.sectionAnswers {
     margin: 10px 0;
 }
 
-#sectionAnswers button {
+.sectionAnswers button {
     display: block;
     width: 100%;
     margin: 5px 0;
