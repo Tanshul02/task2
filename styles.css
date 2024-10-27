@@ -47,6 +47,6 @@ sectionQuizContainer, .sectionResult {
     cursor: pointer;
 }
 
-#sectionNext {
+.sectionNext {
     margin-top: 10px;
 }
