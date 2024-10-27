@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://source.unsplash.com/featured/?coding,books');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+#sectionQuiz button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#sectionQuizContainer, #sectionResult {
+    display: none;
+}
+
+#sectionAnswers {
+    margin: 10px 0;
+}
+
+#sectionAnswers button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#sectionNext {
+    margin-top: 10px;
+}
