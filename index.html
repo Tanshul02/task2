@@ -7,25 +7,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container body heading">
+    <div class="container">
         <h1>Web Development Quiz</h1>
-        <div id="sectionQuiz">
-            <button id="sectionEasy" onclick="startQuiz('easy')">Easy Level</button>
-            <button id="sectionModerate" onclick="startQuiz('moderate')">Moderate Level</button>
-            <button id="sectionDifficult" onclick="startQuiz('difficult')">Difficult Level</button>
-            
-            <div id="sectionQuizContainer">
-                <h2 id="sectionQuestion"></h2>
-                <div id="sectionAnswers"></div>
-                <button id="sectionNext" onclick="nextQuestion()">Next</button>
-            </div>
-            
-            <div id="sectionResult">
-                <h2>Your Score: <span id="sectionScore"></span></h2>
-                <button id="sectionPlayAgain" onclick="resetQuiz()">Play Again</button>
-            </div>
+
+        <div id="sectionLevelSelect">
+            <h2>Select Level</h2>
+            <button id="section1" onclick="startQuiz('easy')">Easy</button>
+            <button id="section2" onclick="startQuiz('moderate')">Moderate</button>
+            <button id="section3" onclick="startQuiz('difficult')">Difficult</button>
+        </div>
+
+        <div id="sectionQuizContainer">
+            <h2 id="sectionQuestion"></h2>
+            <div id="sectionAnswers"></div>
+            <button id="sectionNext" onclick="nextQuestion()">Next</button>
+        </div>
+
+        <div id="sectionResult">
+            <h2>Your Score: <span id="sectionScore"></span>/10</h2>
+            <button id="sectionPlayAgain" onclick="resetQuiz()">Play Again</button>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
+    
